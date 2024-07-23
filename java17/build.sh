@@ -11,4 +11,7 @@ rm -rf ./openjdk
     --no-header-files \
     --compress=2 \
     --add-modules $m
-docker build .
+ID=$(docker build . -q)
+docker run --rm $ID java -version
+echo "Docker image ID is $ID"
+echo "Please run docker tag $ID <Your Image>:<Your Tag> for later usage."
