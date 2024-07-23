@@ -4,7 +4,7 @@ This is a simple script to build a java docker images, with support for
   -  gosu
   - arthas
 
-# Usage:
+## Build and Test:
 
 ```
 cd java17
