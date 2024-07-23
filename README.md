@@ -3,3 +3,10 @@ This is a simple script to build a java docker images, with support for
 - 3rd party tools
   -  gosu
   - arthas
+
+# Usage:
+
+```
+cd java17
+./build.sh
+```
