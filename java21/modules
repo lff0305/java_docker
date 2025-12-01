@@ -41,6 +41,7 @@ jdk.management.jfr
 jdk.naming.dns
 jdk.naming.rmi
 jdk.net
+jdk.random
 jdk.sctp
 jdk.security.auth
 jdk.security.jgss
